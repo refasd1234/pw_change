@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url( Styles/color.css );
+        @import url( Styles/font.css );
+        @import url( Styles/layout.css );
+        @import url( Styles/size.css );
+    </style>
+</head>
+
+<script src="Scripts/id&pw_check.js"></script>
+<body>
+    <header><img src="Images/logo.png" alt=""></header>
+    <div>
+        <form action="" id="loginSuccess">
+            <table>
+                <tr>
+                    <td><label>아이디:</label></td>
+                    <td><label><script>document.write( sessionStorage.getItem( "id" ) );</script></label></td>
+                </tr>
+
+                <tr>
+                    <td><label>고객명: </label></td>
+                    <td><label><script>document.write( sessionStorage.getItem( "name" ) );</script></label></td>
+                </tr>
+                
+                <!-- <tr>
+                    <td><label id="successLabel"></label></td>
+                </tr> -->
+
+                <tr>
+                    <td><input type="button" name="" id="" value="로그아웃" onclick="window.open( 'login.html' )"></td>
+                    <td><input type="button" name="" id="pwChange" value="비밀번호 변경" onclick="window.open( 'html/pw_change.html')"></td>
+                    <!-- <td><input type="button" name="" id="pNum" value="회원정보 변경" onclick="pNumChange()"></td> -->
+                </tr>
+            </table>
+        </form>
+    </div>
+    <footer>&copy; 2023 by Lee, JS</footer>
+</body>
+</html>

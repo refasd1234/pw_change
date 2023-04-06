@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(122, 226, 195);
+}
+
+label{
+    color: green;
+}
+
+input::placeholder{
+    color: blue;
+}
+
+input[ type = text ]{
+    background-color: yellow;
+    border-color: yellow;
+}
+
+input[ type = password ]{
+    background-color: yellow;
+    border-color: yellow;
+}
+
+input[ type = submit ]{
+    background-color: peru;
+    border-color: peru;
+    color: white;
+}
+
+input[ type = reset ]{
+    background-color: peru;
+    border-color: peru;
+    color: white;
+}
+
+input[ type = button ]{
+    background-color: peru;
+    border-color: peru;
+    color: white;
+}
